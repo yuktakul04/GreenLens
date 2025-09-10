@@ -1,0 +1,41 @@
+product_id,category,product_name,brand,barcode,co2_kg,co2_note,alternative_1,alternative_2
+001,fruits_veggies,Banana,General,209638605357,0.12,Imported,002,003
+002,fruits_veggies,Apple,Gala,683213100068,0.15,Local,001,004
+003,fruits_veggies,Orange,General,833035833833,0.13,Imported,002,005
+004,fruits_veggies,Strawberry Pack,General,137109642364,0.18,Local,003,005
+005,fruits_veggies,Grapes (Red),General,027091213507,0.16,Imported,003,004
+006,fruits_veggies,Carrot,General,518653073759,0.10,Local,007,008
+007,fruits_veggies,Tomato,General,736324043172,0.10,Local,006,008
+008,fruits_veggies,Broccoli,General,322238917965,0.12,Local,006,007
+009,fruits_veggies,Lettuce (Iceberg),General,843173858187,0.11,Local,006,008
+010,fruits_veggies,Bell Pepper (Red),General,029977198875,0.13,Imported,007,009
+011,snacks,Lay's Classic Chips,Lay's,137155741055,0.25,Packaged,012,013
+012,snacks,Doritos Nacho Cheese,Doritos,056934152663,0.28,Packaged,011,014
+013,snacks,Pringles Original,Pringles,253660149815,0.27,Packaged,011,012
+014,snacks,KitKat Chocolate,Nestle,893221013315,0.30,Packaged,015,016
+015,snacks,Snickers Bar,Mars,770608104200,0.32,Packaged,014,016
+016,snacks,Oreo Cookies,Nabisco,605176676657,0.29,Packaged,014,015
+017,snacks,M&M's Peanut,Mars,558658953250,0.31,Packaged,015,016
+018,snacks,Cheez-It Original,Kellogg's,140401108192,0.26,Packaged,011,013
+019,snacks,Goldfish Crackers,Pepperidge,837464938174,0.24,Packaged,012,018
+020,snacks,Ritz Crackers,Ritz,713426734168,0.23,Packaged,018,019
+021,beverages,Coca-Cola 12oz Can,Coca-Cola,966517841534,0.20,Packaged,022,023
+022,beverages,Pepsi 12oz Can,Pepsi,674558649829,0.21,Packaged,021,024
+023,beverages,Red Bull 8.4oz,Red Bull,923822112783,0.25,Packaged,021,022
+024,beverages,Tropicana Orange Juice,Tropicana,788180219375,0.18,Packaged,025,026
+025,beverages,Dasani Water 16oz,Coca-Cola,933860216097,0.10,Packaged,024,026
+026,beverages,Starbucks Frappuccino,Starbucks,853204814912,0.22,Packaged,024,025
+027,beverages,Gatorade Lemon-Lime,Gatorade,438082063629,0.19,Packaged,025,026
+028,beverages,Lipton Iced Tea 16oz,Lipton,138037403920,0.18,Packaged,024,027
+029,beverages,Monster Energy 16oz,Monster,568917865083,0.23,Packaged,023,027
+030,beverages,LaCroix Sparkling Water,LaCroix,044983395231,0.12,Packaged,025,028
+031,dairy,Whole Milk 1 Gallon,Horizon,885968174122,0.30,Local,032,033
+032,dairy,2% Milk 1 Gallon,Horizon,088458107204,0.28,Local,031,033
+033,dairy,Cheddar Cheese Block,Kraft,092167837123,0.35,Packaged,031,032
+034,dairy,Yogurt (Vanilla) 6oz,Chobani,444439579297,0.22,Packaged,035,036
+035,dairy,Butter Stick 1lb,Land O Lakes,090509945580,0.33,Packaged,034,036
+036,dairy,Mozzarella Cheese 8oz,Sargento,006668198675,0.31,Packaged,034,035
+037,dairy,Cream Cheese 8oz,Philadelphia,379133081143,0.29,Packaged,034,036
+038,dairy,Half & Half 16oz,Horizon,422053236908,0.25,Local,031,032
+039,dairy,Greek Yogurt 5.3oz,Fage,361511188379,0.22,Packaged,034,036
+040,dairy,Cottage Cheese 16oz,Daisy,945961097811,0.24,Packaged,035,037
