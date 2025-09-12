@@ -1,0 +1,317 @@
+{
+  "model_info": {
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "input_name": "input",
+    "output_name": "output",
+    "num_classes": 50,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "class_mapping": {
+    "0": "2%_Milk_1_Gallon",
+    "1": "All_Purpose_flour",
+    "2": "Apple",
+    "3": "Banana",
+    "4": "Barilla_spaghetti",
+    "5": "Bell_Pepper_Green",
+    "6": "Broccoli",
+    "7": "Butter_Stick_1lb",
+    "8": "Carrot",
+    "9": "Cheddar_Cheese_Block",
+    "10": "Cheerios",
+    "11": "Cheez-It_Original",
+    "12": "Coca-Cola_12oz_Can",
+    "13": "Cottage_Cheese",
+    "14": "Cream_Cheese_8oz",
+    "15": "Crisco_Pure_Vegetable_Oil",
+    "16": "Dasani_Water_16oz",
+    "17": "Doritos_Nacho_Cheese",
+    "18": "Gatorade_Lemon-Lime",
+    "19": "Goldfish_Crackers",
+    "20": "Grapes_Red",
+    "21": "Greek_Yogurt_5.3oz",
+    "22": "Half_&_Half_16oz",
+    "23": "Jif_Peanut_Butter",
+    "24": "KitKat_Chocolate",
+    "25": "LaCroix_Sparkling_Water",
+    "26": "Lay's_Classic_Chips",
+    "27": "Lettuce_Iceberg",
+    "28": "Lipton_Iced_Tea_16oz",
+    "29": "M&M's_Peanut",
+    "30": "Monster_Energy_16oz",
+    "31": "Mozzarella_Cheese_8oz",
+    "32": "Orange",
+    "33": "Oreo_Cookies",
+    "34": "Pepsi_12oz_Can",
+    "35": "Pringles_Original",
+    "36": "Quaker_Oats",
+    "37": "Red_Bull_8.4oz",
+    "38": "Ritz_Crackers",
+    "39": "Salt",
+    "40": "Snickers_Bar",
+    "41": "Starbucks_Frappuccino",
+    "42": "Strawberry_Pack",
+    "43": "Sugar",
+    "44": "Tomato",
+    "45": "Tropicana_Orange_Juice",
+    "46": "UncleBen_Rice",
+    "47": "Whole_Milk_1_Gallon",
+    "48": "Wonder_Bread",
+    "49": "Yogurt_Vanilla_6oz"
+  },
+  "carbon_footprint": {
+    "Banana": {
+      "co2_kg": 0.12,
+      "eco_rating": "low",
+      "alternative": 2,
+      "category": "fruits_veggies"
+    },
+    "Apple": {
+      "co2_kg": 0.15,
+      "eco_rating": "low",
+      "alternative": 1,
+      "category": "fruits_veggies"
+    },
+    "Orange": {
+      "co2_kg": 0.13,
+      "eco_rating": "low",
+      "alternative": 2,
+      "category": "fruits_veggies"
+    },
+    "Strawberry_Pack": {
+      "co2_kg": 0.18,
+      "eco_rating": "medium",
+      "alternative": 3,
+      "category": "fruits_veggies"
+    },
+    "Grapes_Red": {
+      "co2_kg": 0.16,
+      "eco_rating": "medium",
+      "alternative": 3,
+      "category": "fruits_veggies"
+    },
+    "Carrot": {
+      "co2_kg": 0.1,
+      "eco_rating": "low",
+      "alternative": 7,
+      "category": "fruits_veggies"
+    },
+    "Tomato": {
+      "co2_kg": 0.1,
+      "eco_rating": "low",
+      "alternative": 6,
+      "category": "fruits_veggies"
+    },
+    "Broccoli": {
+      "co2_kg": 0.12,
+      "eco_rating": "low",
+      "alternative": 6,
+      "category": "fruits_veggies"
+    },
+    "Lettuce_Iceberg": {
+      "co2_kg": 0.11,
+      "eco_rating": "low",
+      "alternative": 6,
+      "category": "fruits_veggies"
+    },
+    "Bell_Pepper_Red": {
+      "co2_kg": 0.13,
+      "eco_rating": "low",
+      "alternative": 7,
+      "category": "fruits_veggies"
+    },
+    "Lay's_Classic_Chips": {
+      "co2_kg": 0.25,
+      "eco_rating": "medium",
+      "alternative": 12,
+      "category": "snacks"
+    },
+    "Doritos_Nacho_Cheese": {
+      "co2_kg": 0.28,
+      "eco_rating": "high",
+      "alternative": 11,
+      "category": "snacks"
+    },
+    "Pringles_Original": {
+      "co2_kg": 0.27,
+      "eco_rating": "high",
+      "alternative": 11,
+      "category": "snacks"
+    },
+    "KitKat_Chocolate": {
+      "co2_kg": 0.3,
+      "eco_rating": "high",
+      "alternative": 15,
+      "category": "snacks"
+    },
+    "Snickers_Bar": {
+      "co2_kg": 0.32,
+      "eco_rating": "high",
+      "alternative": 14,
+      "category": "snacks"
+    },
+    "Oreo_Cookies": {
+      "co2_kg": 0.29,
+      "eco_rating": "high",
+      "alternative": 14,
+      "category": "snacks"
+    },
+    "M_M's_Peanut": {
+      "co2_kg": 0.31,
+      "eco_rating": "high",
+      "alternative": 15,
+      "category": "snacks"
+    },
+    "Cheez-It_Original": {
+      "co2_kg": 0.26,
+      "eco_rating": "high",
+      "alternative": 11,
+      "category": "snacks"
+    },
+    "Goldfish_Crackers": {
+      "co2_kg": 0.24,
+      "eco_rating": "medium",
+      "alternative": 12,
+      "category": "snacks"
+    },
+    "Ritz_Crackers": {
+      "co2_kg": 0.23,
+      "eco_rating": "medium",
+      "alternative": 18,
+      "category": "snacks"
+    },
+    "Coca-Cola_12oz_Can": {
+      "co2_kg": 0.2,
+      "eco_rating": "medium",
+      "alternative": 22,
+      "category": "beverages"
+    },
+    "Pepsi_12oz_Can": {
+      "co2_kg": 0.21,
+      "eco_rating": "medium",
+      "alternative": 21,
+      "category": "beverages"
+    },
+    "Red_Bull_8.4oz": {
+      "co2_kg": 0.25,
+      "eco_rating": "medium",
+      "alternative": 21,
+      "category": "beverages"
+    },
+    "Tropicana_Orange_Juice": {
+      "co2_kg": 0.18,
+      "eco_rating": "medium",
+      "alternative": 25,
+      "category": "beverages"
+    },
+    "Dasani_Water_16oz": {
+      "co2_kg": 0.1,
+      "eco_rating": "low",
+      "alternative": 24,
+      "category": "beverages"
+    },
+    "Starbucks_Frappuccino": {
+      "co2_kg": 0.22,
+      "eco_rating": "medium",
+      "alternative": 24,
+      "category": "beverages"
+    },
+    "Gatorade_Lemon-Lime": {
+      "co2_kg": 0.19,
+      "eco_rating": "medium",
+      "alternative": 25,
+      "category": "beverages"
+    },
+    "Lipton_Iced_Tea_16oz": {
+      "co2_kg": 0.18,
+      "eco_rating": "medium",
+      "alternative": 24,
+      "category": "beverages"
+    },
+    "Monster_Energy_16oz": {
+      "co2_kg": 0.23,
+      "eco_rating": "medium",
+      "alternative": 23,
+      "category": "beverages"
+    },
+    "LaCroix_Sparkling_Water": {
+      "co2_kg": 0.12,
+      "eco_rating": "low",
+      "alternative": 25,
+      "category": "beverages"
+    },
+    "Whole_Milk_1_Gallon": {
+      "co2_kg": 0.3,
+      "eco_rating": "high",
+      "alternative": 32,
+      "category": "dairy"
+    },
+    "2%_Milk_1_Gallon": {
+      "co2_kg": 0.28,
+      "eco_rating": "high",
+      "alternative": 31,
+      "category": "dairy"
+    },
+    "Cheddar_Cheese_Block": {
+      "co2_kg": 0.35,
+      "eco_rating": "high",
+      "alternative": 31,
+      "category": "dairy"
+    },
+    "Yogurt_Vanilla_6oz": {
+      "co2_kg": 0.22,
+      "eco_rating": "medium",
+      "alternative": 35,
+      "category": "dairy"
+    },
+    "Butter_Stick_1lb": {
+      "co2_kg": 0.33,
+      "eco_rating": "high",
+      "alternative": 34,
+      "category": "dairy"
+    },
+    "Mozzarella_Cheese_8oz": {
+      "co2_kg": 0.31,
+      "eco_rating": "high",
+      "alternative": 34,
+      "category": "dairy"
+    },
+    "Cream_Cheese_8oz": {
+      "co2_kg": 0.29,
+      "eco_rating": "high",
+      "alternative": 34,
+      "category": "dairy"
+    },
+    "Half___Half_16oz": {
+      "co2_kg": 0.25,
+      "eco_rating": "medium",
+      "alternative": 31,
+      "category": "dairy"
+    },
+    "Greek_Yogurt_5.3oz": {
+      "co2_kg": 0.22,
+      "eco_rating": "medium",
+      "alternative": 34,
+      "category": "dairy"
+    },
+    "Cottage_Cheese_16oz": {
+      "co2_kg": 0.24,
+      "eco_rating": "medium",
+      "alternative": 35,
+      "category": "dairy"
+    }
+  }
+}
